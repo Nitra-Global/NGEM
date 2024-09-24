@@ -63,7 +63,7 @@ We welcome contributions from the community! If you'd like to help us improve th
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **Nitra Global License Agreement**. For details, please see the [LICENSE](LICENSE) file.
 
 ## 🏷️ Contact
 
