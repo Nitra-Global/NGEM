@@ -1,7 +1,5 @@
 # NG Extension Manager
 
-![NG Extension Manager Logo](link-to-your-logo) <!-- Replace with actual logo link -->
-
 **NG Extension Manager** is a secure browser extension that is now open-source as of **September 24, 2024**. The source code is available on GitHub, developed by **Nitra Global**, a small but dedicated team focused on enhancing your browsing experience.
 
 ## 🚀 Features
@@ -44,7 +42,7 @@
 
 To install the NG Extension Manager, follow these steps:
 
-1. **Download** the latest version from the [Releases page](link-to-releases).
+1. **Download** the latest version from the [Releases page](releases).
 2. **Add** the extension to your browser following the instructions for your specific browser.
 
 ## 📄 Roadmap
