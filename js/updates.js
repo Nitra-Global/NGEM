@@ -124,6 +124,29 @@ function handleError(elementId, message, error) {
     console.error(message, error);
 }
 
+document.getElementById("sort-options").addEventListener("change", () => {
+    const sortOption = document.getElementById("sort-options").value;
+    const releases = getCachedData("releasesCache");
+    if (releases) {
+        sortReleases(releases, sortOption);
+        updateReleasesGrid(releases);
+    }
+});
+
+function sortReleases(releases, sortOption) {
+    switch (sortOption) {
+        case "date":
+            releases.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+            break;
+        case "name":
+            releases.sort((a, b) => a.name.localeCompare(b.name));
+            break;
+        case "type":
+            releases.sort((a, b) => a.prerelease - b.prerelease);
+            break;
+    }
+}
+
 function updateReleasesGrid(releases) {
     const releasesGrid = document.getElementById("releases-grid");
     releasesGrid.innerHTML = '';
