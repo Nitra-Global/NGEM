@@ -3,7 +3,22 @@ const changelogAPI = "https://api.github.com/repos/nitra-global/NG-Extension-Man
 const manifestData = chrome.runtime.getManifest();
 const installedVersion = manifestData.version;
 
+function toggleTheme() {
+    const isDarkMode = document.body.classList.toggle('dark-mode');
+    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+}
+
+function applySavedTheme() {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+        document.body.classList.add('dark-mode');
+    } else {
+        document.body.classList.remove('dark-mode');
+    }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+    applySavedTheme(); // Apply theme when the page loads
     document.getElementById("installed-version").textContent = installedVersion;
     document.getElementById("close-sheet").addEventListener("click", closeBottomSheet);
     document.getElementById("theme-toggle").addEventListener("click", toggleTheme);
@@ -69,10 +84,6 @@ function openBottomSheet(release) {
 
 function closeBottomSheet() {
     document.getElementById("bottom-sheet").classList.remove("open");
-}
-
-function toggleTheme() {
-    document.body.classList.toggle('dark-mode');
 }
 
 function filterReleases() {
