@@ -15,8 +15,14 @@
             <p id="status-message"></p>
         </header>
         <div class="version-info">
-            <input type="text" id="search-input" placeholder="Search Releases..." aria-label="Search Releases">
-            <!-- Add this near your search input -->
+            <div class="search-sort-container">
+                <input type="text" id="search-input" placeholder="Search releases...">
+                <select id="sort-options">
+                    <option value="date">Sort by Date</option>
+                    <option value="name">Sort by Name</option>
+                    <option value="type">Sort by Type</option>
+                </select>
+            </div>
             <div class="filter-container">
                 <label for="pre-release-filter"></label></div>
         </div>
@@ -39,7 +45,7 @@
 >
 </iframe>
         <footer>
-            <p>Created by Nitra Global</p>
+            <p>© 2024 Nitra Global</p>
             <button id="theme-toggle" title="Toggle Dark/Light Theme">Toggle Theme</button>
 
         </footer>
@@ -52,3 +58,4 @@
 <script src="js/offline.js"></script>
 </body>
 </html>
+
