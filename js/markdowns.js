@@ -99,7 +99,7 @@ function markdownToHTML(markdown) {
             `<details><summary>${summary}</summary><p>${details.replace(/\n/g, '<br>')}</p></details>`)
 
         // Tables
-        .replace(/^\|(.+)\|\n\|(:?-+:?)+\|\n((?:\|.*\|\n)+)/gm, (match, header, align, rows) => {
+        .replace(/^\|(.+)\|\n\|(?:-+|:?-+:?)+\|\n((?:\|.*\|\n)+)/gm, (match, header, align, rows) => {
             const headers = header.split('|').map(h => `<th>${h.trim()}</th>`).join('');
             const bodyRows = rows.trim().split('\n').map(row => {
                 const cols = row.split('|').map(col => `<td>${col.trim()}</td>`).join('');
