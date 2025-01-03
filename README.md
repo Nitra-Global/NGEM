@@ -5,6 +5,7 @@
 ## 🛑 **Important Announcement**: Archive Status
 
 As of **January 2025**, **NG Extension Manager** has been archived. No new major features or active development will be implemented going forward. However, we will continue to provide **essential maintenance** and **security patches** as needed.
+PLEASE DOWNLOAD THE LATEST VERSION HERE: https://github.com/Nitra-Global/NGEM-Dark-Mode
 
 ## 🚀 Base Features
 
