@@ -1,42 +1,40 @@
 # NG Extension Manager
 
-**NG Extension Manager** is a secure browser extension that is now open-source as of **September 24, 2024**. The source code is available on GitHub, developed by **Nitra Global**, a small but dedicated team focused on enhancing your browsing experience.
+**NG Extension Manager** is a secure browser extension open-sourced on **September 24, 2024** by **Nitra Global**, designed to manage your browser extensions with privacy, ease, and efficiency. 
 
-## 🚀 Features
+## 🛑 **Important Announcement**: Archive Status
 
-- **Local Operation**
-  - All operations are performed locally on your computer.
-  - No external servers involved—ensuring complete privacy and no data collection.
+As of **January 2025**, **NG Extension Manager** has been archived. No new major features or active development will be implemented going forward. However, we will continue to provide **essential maintenance** and **security patches** as needed.
 
-- **Link Protection**
-  - Links must be confirmed by the user before opening to prevent navigation to unknown websites.
-  - HTTPS scanning for added security.
+## 🚀 Base Features
 
-- **Modern User Interface (UI)**
-  - Clean and intuitive design, ensuring a user-friendly experience.
-  - Regular updates and refinements based on user feedback.
+### 🔹 Extension Details Page
+- **Extension Information**: View essential details of installed extensions, including:
+  - **Name**, **Version**, **Description**
+  - **Homepage URL** and **Options Page URL**
+  - **Enabled/Disabled Status**
+  - **Manifest Version** (if applicable)
 
-- **Extension Details Page**
-  - View comprehensive information about each extension:
-    - **Name**
-    - **Version**
-    - **Description**
-    - **Homepage URL**
-    - **Options Page URL**
-    - **Status** (Enabled/Disabled)
-  - Action buttons to **Activate/Deactivate** or **Uninstall** the extension.
+- **Actions**:
+  - **Enable/Disable** extension
+  - **Uninstall** extension
 
-- **Permissions Overview**
-  - Categorized permissions displayed in an accordion format for easy navigation.
+- **Permissions**: View detailed permissions requested by the extension, with descriptions for each permission.
 
-- **Notes Section**
-  - Store personal notes, opinions, or passwords (saved in Local Storage).
-  - Notes can be deleted at any time.
+### 🔹 Popup Page
+- Provides a concise overview of your extensions directly from the browser toolbar.
+- **Quick Access**: Activate, deactivate, or uninstall extensions.
+- **Visual Indicators**: Easy-to-read status indicators for each extension.
+
+### 🔹 Permissions Grid Layout
+- Extension permissions are displayed in an organized, grid-based layout for clarity.
+- Allows users to review what access each extension has, ensuring transparency.
+
+### 🔹 Offline Support
+- **Offline Mode**: Now almost fully supported in all pages, allowing the extension to function without constant internet access.
 
 ## 🔒 Security
-
-- **No Data Collection**: We do not track your usage or collect any personal data.
-- **Offline Support**: Currently in development; you may see a warning regarding this feature.
+- **Privacy First**: No data collection or tracking of user behavior.
 
 ## 📦 Installation
 
@@ -44,31 +42,27 @@ To install the NG Extension Manager, follow these steps:
 
 1. **Download** the latest version from the [Releases page](https://github.com/Nitra-Global/NG-Extension-Manager/releases).
 2. **Add** the extension to your browser following the instructions for your specific browser.
-3. If you don't like the light design, you can check out the dark mode version of NG Extension Manager > https://github.com/Nitra-Global/NGEM-Dark-Mode
+3. If you prefer a darker design, check out the [NGEM Dark Mode](https://github.com/Nitra-Global/NGEM-Dark-Mode).
 
 ## 📄 Roadmap
-
-We are continually working to enhance NG Extension Manager with:
-
-- Implementation of **Offline Support**.
-- Advanced **Security Features**.
-- UI/UX improvements based on community feedback.
+While **no new features** will be added, we are maintaining:
+- **Security patches** and **bug fixes**.
+- **Compatibility updates** for the latest browser versions.
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! If you'd like to help us improve the extension or report any issues, please:
+We welcome contributions! If you'd like to help us improve the extension or report issues, please:
 
 1. **Fork** the repository.
-2. **Create a new branch** for your feature or bug fix.
-3. **Submit a pull request** with a clear description of your changes.
+2. **Create a new branch** for your changes.
+3. **Submit a pull request** with a clear description of your modifications.
 
 ## 📄 License
-
 This project is licensed under the **Nitra Global License Agreement**. For details, please see the [LICENSE](License) file.
 
 ## 🏷️ Contact
-
 For any inquiries, please contact us at [NGDE@WEB.DE](mailto:NGDE@WEB.DE).
+
 ---
 
 ### Created and Developed by:
