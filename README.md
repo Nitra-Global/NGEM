@@ -41,9 +41,8 @@ PLEASE DOWNLOAD THE LATEST VERSION HERE: https://github.com/Nitra-Global/NGEM-Da
 
 To install the NG Extension Manager, follow these steps:
 
-1. **Download** the latest version from the [Releases page](https://github.com/Nitra-Global/NG-Extension-Manager/releases).
+1. **Download** the latest version from the [Releases page](https://github.com/Nitra-Global/NG-Extension-Mananger/releases).
 2. **Add** the extension to your browser following the instructions for your specific browser.
-3. If you prefer a darker design, check out the [NGEM Dark Mode](https://github.com/Nitra-Global/NGEM-Dark-Mode).
 
 ## 📄 Roadmap
 While **no new features** will be added, we are maintaining:
